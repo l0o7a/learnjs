@@ -1,10 +1,4 @@
-console.log('Hello Terminal!');
+import fs from 'fs';
 
-//const common = require('./common.js');
-import common from './common.js';
-
-common.hello();
-
-import es from './module.js';
-
-es.hello()
+//fs.writeFileSync('./hello.txt', 'Hello');
+fs.appendFileSync('./hello.txt', 'Hello');
