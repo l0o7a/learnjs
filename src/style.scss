@@ -1,10 +1,3 @@
-@use "sass:color";
-$bgcolor: green;
-
-html, body {
-    background-color: color.scale($bgcolor, $lightness: 30%);
-}
-// body {
-//   background-image: url('catpics.jpg');
-//   background-size: 100% 100%;
-// }
+@use "bulma/sass" with (
+  $primary: rgb(0, 255, 0)
+);

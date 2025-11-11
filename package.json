@@ -20,6 +20,7 @@
   "homepage": "https://github.com/XiaQingMiao/learnjs#readme",
   "dependencies": {
     "bluma": "^2.0.16",
+    "bulma": "^1.0.4",
     "vite": "^7.1.12"
   },
   "devDependencies": {
