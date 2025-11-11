@@ -19,6 +19,10 @@
   },
   "homepage": "https://github.com/XiaQingMiao/learnjs#readme",
   "dependencies": {
+    "bluma": "^2.0.16",
     "vite": "^7.1.12"
+  },
+  "devDependencies": {
+    "sass-embedded": "^1.93.3"
   }
 }
