@@ -8,17 +8,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/XiaQingMiao/learnjs.git"
+    "url": "git+https://github.com/noramaishein-star/learnsjs.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
   "bugs": {
-    "url": "https://github.com/XiaQingMiao/learnjs/issues"
+    "url": "https://github.com/noramaishein-star/learnsjs/issues"
   },
-  "homepage": "https://github.com/XiaQingMiao/learnjs#readme",
+  "homepage": "https://github.com/noramaishein-star/learnsjs#readme",
   "dependencies": {
+    "@vitejs/plugin-vue": "^6.0.1",
     "bluma": "^2.0.16",
     "bulma": "^1.0.4",
     "vite": "^7.1.12"
