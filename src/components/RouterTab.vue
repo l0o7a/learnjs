@@ -6,9 +6,12 @@ import { RouterLink } from 'vue-router';
 <template>
     <div class="tabs is-centered">
   <ul>
-        <li><RouterLink to="/">Todo</RouterLink></li>
-        <li><router-link to="/modals">modals</router-link></li>
-        <li><a href="/modals">modals</a></li>
+        <li :class="{'is-active': $route.path === '/'}">
+            <RouterLink to="/">Todo</RouterLink></li>
+
+        <li :class="{'is-active': $route.path === '/modals'}">
+            <router-link to="/modals">modals</router-link></li>
+
 
   </ul>
 </div>
