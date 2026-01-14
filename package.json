@@ -19,10 +19,11 @@
   },
   "homepage": "https://github.com/noramaishein-star/learnsjs#readme",
   "dependencies": {
-    "@vitejs/plugin-vue": "^6.0.1",
+    "@vitejs/plugin-vue": "^6.0.3",
     "bluma": "^2.0.16",
     "bulma": "^1.0.4",
-    "vite": "^7.1.12"
+    "vite": "^7.1.12",
+    "vue-router": "^4.6.4"
   },
   "devDependencies": {
     "sass-embedded": "^1.93.3"
