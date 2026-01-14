@@ -8,6 +8,7 @@ import { RouterLink } from 'vue-router';
   <ul>
         <li><RouterLink to="/">Todo</RouterLink></li>
         <li><router-link to="/modals">modals</router-link></li>
+        <li><a href="/modals">modals</a></li>
 
   </ul>
 </div>
